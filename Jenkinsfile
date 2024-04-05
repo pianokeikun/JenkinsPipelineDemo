@@ -2,23 +2,23 @@ pipeline{
     agent any
 
     stages{
-        stages('Hello'){
+        stage('Hello'){
             steps{
                 echo 'Hello World'
             }
-        }stages('Build'){
+        }stage('Build'){
             steps{
                 echo 'Building'
             }
-        }stages('Deploy'){
+        }stage('Deploy'){
             steps{
                 echo 'Deploying'
             }
-        }stages('Test'){
+        }stage('Test'){
             steps{
                 echo 'Testing'
             }
-        }stages('Release'){
+        }stage('Release'){
             steps{
                 echo 'Releasing'
             }
