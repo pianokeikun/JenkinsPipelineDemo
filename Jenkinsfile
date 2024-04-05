@@ -3,23 +3,23 @@ pipeline {
 
     stages {
         stage ('Hello') {
-            steps{
+            steps {
                 echo 'Hello World'
             }
         }stage ('Build') {
-            steps{
+            steps {
                 echo 'Building'
             }
         }stage ('Deploy') {
-            steps{
+            steps {
                 echo 'Deploying'
             }
         }stage ('Test') {
-            steps{
+            steps {
                 echo 'Testing'
             }
         }stage ('Release') {
-            steps{
+            steps {
                 echo 'Releasing'
             }
         }
